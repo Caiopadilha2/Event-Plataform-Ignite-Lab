@@ -1,4 +1,5 @@
 # Apollo
+
 -> Controle de cache, consegue fazer requisições mais rápido se já feitas.
 
 # Graphql
@@ -9,6 +10,6 @@
 
 # https://phosphoricons.com/
 
-date-fns https://date-fns.org/v2.30.0/docs/format
+# date-fns https://date-fns.org/v2.30.0/docs/format
 
-
+# Vime js - https://vimejs.com/getting-started/installation#react
