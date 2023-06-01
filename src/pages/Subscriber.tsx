@@ -24,6 +24,7 @@ export function Subscribe() {
 
   const handleSubscribe = async (event: FormEvent) => {
     event.preventDefault();
+    localStorage.setItem("user", name);
 
     await createSubscriber({
       variables: {
@@ -33,7 +34,6 @@ export function Subscribe() {
     });
 
     navigate('/event')
-    localStorage.setItem("user", name);
   }
 
   return(
