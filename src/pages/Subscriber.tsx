@@ -33,6 +33,7 @@ export function Subscribe() {
     });
 
     navigate('/event')
+    localStorage.setItem("user", name);
   }
 
   return(
